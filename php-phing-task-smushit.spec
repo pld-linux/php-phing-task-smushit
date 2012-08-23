@@ -3,7 +3,7 @@
 Summary:	Phing task to run Smush.it
 Name:		php-phing-task-smushit
 Version:	0.1
-Release:	1
+Release:	2
 License:	BSD
 Group:		Development/Languages/PHP
 Source0:	https://github.com/glensc/phing-task-smushit/tarball/master#/%{name}.tgz
@@ -11,7 +11,7 @@ Source0:	https://github.com/glensc/phing-task-smushit/tarball/master#/%{name}.tg
 URL:		https://github.com/glensc/phing-task-smushit
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 BuildRequires:	rpmbuild(macros) >= 1.593
-Requires:	php-common >= 4:%{php_min_version}
+Requires:	php(core) >= %{php_min_version}
 Requires:	php-smushit
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
