@@ -1,5 +1,4 @@
 %define		php_min_version 5.0.0
-%include	/usr/lib/rpm/macros.php
 Summary:	Phing task to run Smush.it
 Name:		php-phing-task-smushit
 Version:	0.1
